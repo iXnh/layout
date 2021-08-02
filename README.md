@@ -1,6 +1,6 @@
 # LAYOUT-PROJECT-COMPONENT
 
-A library of layout projects components created with HTML, CSS and JavaScript
+A library of layout project components created with HTML, CSS and JavaScript
 
 |  #  | Component       | Live Preview                                                                   |
 | :-: | :-------------- | :----------------------------------------------------------------------------- |
