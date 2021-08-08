@@ -1,0 +1,106 @@
+/*Design by Ikhsan N. Huda
+------ 30 Juli 2021 ------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*start global*/
+
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+}
+
+a {
+    text-decoration: none;
+    color:#363434 ;
+}
+
+h1 {
+    text-align: center;
+}
+p{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+/*end global*/
+
+/*start Content*/
+
+.content-item{ 
+    margin-top: 5rem;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    
+}
+
+.content-item:last-child{
+    margin-bottom: 0;
+}
+
+.content-img {
+    width: 50rem;
+}
+
+
+.content-description h1{
+    font-size: 3rem;
+    margin: 1rem 0;
+    font-weight: 300;
+    
+}
+
+/*end Content*/
+
+/*start reusable*/
+ 
+.has-margin-right {
+    margin-right:5rem ;
+}
+
+/*end reusable*/
+
+
+/*media query*/
+
+@media screen and (max-width: 768px) {
+    .content-item {
+        flex: 2;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .content-item {
+        flex-direction: column;
+    }
+
+    .content-img {
+        width: 40rem;
+        margin: 0 0 2rem 0;
+        order: 1;
+    }
+
+    .content-description {
+        margin: 0;
+        order: 2;
+    }
+}
