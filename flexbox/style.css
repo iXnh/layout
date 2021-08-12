@@ -1,0 +1,29 @@
+/* Start Global */
+
+
+#flex-parent {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    border: 2px solid yellowgreen;
+    padding: 10px;
+}
+.flex-child {
+    width: 280px;
+    height: 190px;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* End Global */
+
+/* Start Content */
+h1 {
+    text-align: left;
+}
+
+/* End Content */
